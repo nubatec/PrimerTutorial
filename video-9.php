@@ -20,14 +20,47 @@
 
 	$variable3 = "Juan";
 
-	if ($variable1 == $variable3) {
+	echo "Comparación utilizando \" == \"";
+	echo "<br>";
+
+	if ($variable1 == $variable2) {
 
 		echo "Son iguales";
+		echo "<br>";
 
 	} else {
 
 		echo "No son iguales";
+		echo "<br>";
 
+	}
+
+	echo "Comparación utilizando \" === \"";
+	echo "<br>";
+
+	if ($variable1 === $variable2) {
+		
+		echo "Son iguales";
+		echo "<br>";
+
+	} else {
+
+		echo "No son iguales";
+		echo "<br>";
+	}
+
+	echo "Comparación utilizando \" != \"";
+	echo "<br>";
+
+	if ($variable1 != $variable3) {
+		
+		echo "Son diferentes";
+		echo "<br>";
+
+	} else {
+
+		echo "No son diferentes";
+		echo "<br>";
 	}
 
 	?>
