@@ -41,7 +41,7 @@
 
 	<h1>Usando operadores de comparación</h1>
 
-	<form action="video-9-b.php" method="post" name="datos_usuario">
+	<form action="video-9-c.php" method="post" name="datos_usuario">
 		<table width="1	5%" align="center">
 			<tr>
 				<td>Nombre: </td>
@@ -65,27 +65,6 @@
 		</table>
 	</form>
 
-
-<?php
-
-	if(isset($_POST["enviando"])) {
-
-		$usuario = $_POST["nombre_usuario"];
-
-		$edad = $_POST["edad_usuario"];
-
-		if($usuario == "Diego" && $edad == 25) {
-
-			echo "<p class = 'validado'> Puedes entrar </p>";
-
-		} else {
-
-			echo "<p class = \"no_validado\"> No puedes entrar </p>";
-		}
-	}
-
-
-?>
 
 
 </body>
